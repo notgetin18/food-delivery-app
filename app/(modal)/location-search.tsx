@@ -23,7 +23,7 @@ const LocationSearch = () => {
     <View style={{ flex: 1 }}>
       <GooglePlacesAutocomplete
         query={{
-          key: process.env.GOOGLE_API_KEY,
+          key: "AIzaSyAsagCBV2RxEV66mQK3sPU9_xZCo7Ji7TQ",
           language: "en",
         }}
         enableHighAccuracyLocation={true}
